@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Demo</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <h1>FORMULARIO</h1>
+     <form action="/guardar" method="post">
+          <!--CAMPO NOMBRES-->
+          <label for="nombres">Nombres</label>
+          <input type="text" id="nombres" name="nombres" required>
+          <!--CAMPO APELLIDOS-->
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" name="apellidos" required>
+          <!--CAMPO DNI-->
+          <label for="dni">Dni</label>
+          <input type="text" id="dni" name="dni" required>
+
+          <!--CAMPO FECHA NACIMIENTO-->
+          <label for="fechaNacimiento">Fecha de Nacimiento</label>
+          <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+          <!-- Botón de envío -->
+          <button type="submit">Guardar</button>
+     </form>
+
+     <a href="/mostrar" class="boton">Mostrar</a>
+</body>
+
+</html>
