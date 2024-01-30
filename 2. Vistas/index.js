@@ -1,6 +1,10 @@
 // IMPORTACIÓN DE MÓDULOS
 const express = require('express');
 const app = express();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64aa60c7718a847c8a895853950cdfdc61bcac3d
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
