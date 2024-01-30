@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Importa la fuente Poppins con peso 500 desde Google Fonts */
+
+* {
+     box-sizing: border-box;
+     /* Establece el modelo de caja para incluir el borde en el tamaño total */
+     margin: 0;
+     /* Elimina el margen predeterminado */
+     padding: 0;
+     /* Elimina el relleno predeterminado */
+     font-family: 'Poppins', sans-serif;
+     /* Establece la fuente predeterminada para todo el documento */
+     font-size: 16px;
+     /* Establece el tamaño de fuente predeterminado */
+     list-style: none;
+     /* Elimina los estilos de lista por defecto */
+}
+
+.header {
+     background-color: #1b3039;
+     /* Establece el color de fondo del encabezado */
+     display: flex;
+     /* Utiliza un modelo de caja flexible para el encabezado */
+     justify-content: space-between;
+     /* Distribuye el espacio disponible entre los elementos del encabezado */
+     align-items: center;
+     /* Centra verticalmente los elementos del encabezado */
+     height: 90px;
+     /* Establece la altura del encabezado */
+     padding: 5px 10%;
+     /* Establece el relleno del encabezado */
+}
+
+.header .logo {
+     cursor: pointer;
+     /* Cambia el cursor a un puntero cuando pasa sobre el logotipo */
+}
+
+.header .logo img {
+     height: 60px;
+     /* Establece la altura de la imagen del logotipo */
+     width: auto;
+     /* Hace que el ancho de la imagen del logotipo sea automático */
+     transition: all 0.3s;
+     /* Aplica una transición suave a todas las propiedades durante 0.3 segundos */
+     filter: invert(100%);
+     /* Invierte los colores de la imagen del logotipo al 100% */
+}
+
+.header .logo img:hover {
+     transform: scale(1.2);
+     /* Escala la imagen del logotipo al 120% en estado de desplazamiento */
+}
+
+.header .nav-links li {
+     display: inline-block;
+     /* Muestra los elementos de la lista en línea y bloquea el espaciado */
+     padding: 0 20px;
+     /* Establece el relleno de los elementos de la lista */
+     transition: all 0.3s;
+     /* Aplica una transición suave a todas las propiedades durante 0.3 segundos */
+}
+
+.header .nav-links li:hover {
+     transform: scale(1.1);
+     /* Escala los elementos de la lista al 110% en estado de desplazamiento */
+}
+
+.header .nav-links a {
+     font-size: 700;
+     /* Establece el tamaño de fuente para los enlaces */
+     color: #eceff1;
+     /* Establece el color de texto de los enlaces */
+     text-decoration: none;
+     /* Elimina el subrayado predeterminado de los enlaces */
+}
+
+.header .nav-links li a:hover {
+     color: #ffbc0e;
+     /* Cambia el color del texto de los enlaces al estado de desplazamiento */
+}
+
+.header .btn button {
+     font-weight: 800;
+     /* Establece el peso de fuente del botón */
+     color: #1b3039;
+     /* Establece el color de texto del botón */
+     padding: 9px 25px;
+     /* Establece el relleno del botón */
+     background: #ffffff;
+     /* Establece el color de fondo del botón */
+     border: none;
+     /* Elimina el borde del botón */
+     border-radius: 30px;
+     /* Establece el radio de borde del botón */
+     cursor: pointer;
+     /* Cambia el cursor a un puntero cuando pasa sobre el botón */
+     transition: all 0.3s ease 0s;
+     /* Aplica una transición suave a todas las propiedades durante 0.3 segundos */
+}
+
+.header .btn button:hover {
+     background-color: #e2f1f8;
+     /* Cambia el color de fondo del botón al estado de desplazamiento */
+     color: #ffbc0e;
+     /* Cambia el color del texto del botón al estado de desplazamiento */
+     transform: scale(1.1);
+     /* Escala el botón al 110% en estado de desplazamiento */
+}
