@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* Importa la fuente Poppins con peso 500 desde Google Fonts */
 
 * {
      box-sizing: border-box;
-     /* Establece el modelo de caja para incluir el borde en el tamaño total */
      margin: 0;
-     /* Elimina el margen predeterminado */
      padding: 0;
-     /* Elimina el relleno predeterminado */
      font-family: 'Poppins', sans-serif;
-     /* Establece la fuente predeterminada para todo el documento */
      font-size: 16px;
-     /* Establece el tamaño de fuente predeterminado */
      list-style: none;
-     /* Elimina los estilos de lista por defecto */
 }
 
 .header {
