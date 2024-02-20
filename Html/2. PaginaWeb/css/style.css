@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
 * {
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     font-family: 'Poppins', sans-serif;
      font-size: 16px;
      list-style: none;
 }
@@ -12,6 +13,7 @@
 body {
      background-color: #f4f4f4;
      color: black;
+     font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -186,4 +188,84 @@ section p {
      font-size: 20px;
      line-height: 1.6;
      margin-bottom: 20px;
+}
+
+
+.organigrama {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+
+}
+
+.organigrama h2 a {
+     text-decoration: none;
+     font-size: 20px;
+     color: #ebc700;
+     text-shadow: 0 0 7px #ebc700;
+}
+
+.organigrama h3 {
+     color: red;
+     margin-bottom: 20px;
+}
+
+.organigrama iframe {
+     border: 2px solid blue;
+     border-radius: 50px;
+     box-shadow: 0 0 10px black;
+}
+
+/* FOOTER */
+footer {
+     background-color: #001f99;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     font-weight: 400;
+     font-style: normal;
+     font-family: "Protest Strike", sans-serif !important;
+}
+
+.footer-content {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+
+.contacto {
+     border-bottom: 8px solid red;
+     margin-bottom: 24px;
+     width: fit-content;
+}
+
+.contacto h4 {
+     font-size: 30px !important;
+
+}
+
+.items li {
+     list-style: none;
+     padding: 10px;
+     font-size: 20px;
+}
+
+.items li span {
+     color: rgb(46, 247, 46);
+     font-size: 23px;
+     margin-left: 5px;
+}
+
+.items li i {
+     color: #ebc700;
+     font-size: 23px;
+     margin-right: 5px;
+}
+
+.items li a {
+     color: #ebc700;
+     font-size: 18px;
+     text-decoration: wavy underline;
+     font-weight: 900;
 }
